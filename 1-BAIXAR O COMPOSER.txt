@@ -2,4 +2,3 @@ php -r "readfile('https://getcomposer.org/installer');" | php
 
 SE NAO TIVER NA PASTA O 
 composer.phar
-teste
