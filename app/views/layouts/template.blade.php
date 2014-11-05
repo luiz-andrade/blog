@@ -13,14 +13,15 @@
 </head>
 <body class="">
     @include('menu.menu')
-<div class="container-fluid">
+<div class="container-header">
       <div class="row">
         <div class="col-sm-3 col-md-2">
-          <ul class="nav nav-sidebar">
+          <ul class="nav nav-sidebar navbar-inverse">
             <li>{{link_to('principal', 'Principal')}}</li>
             <li class="active"><a href="#">Novo post</a></li>
             <li><a href="#">Usuarios</a></li>
             <li>{{link_to('comentario', 'Comentarios')}}</li>
+            <li>{{link_to('categoria', 'Categoria')}}</li>
           </ul>
         </div> {{--col-sm-3--}}
     <div class="col-sm-9 col-md-10 main">

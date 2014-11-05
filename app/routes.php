@@ -8,6 +8,7 @@ Route::get('/', function()
 Route::get('principal', 'HomeController@principal');
 
 Route::resource('comentario', 'ComentarioController');
+Route::resource('categoria', 'CategoriaController');
 //Route::resource('home', 'BlogController', array('except'=>array(show)));
 
 
