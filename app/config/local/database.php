@@ -6,7 +6,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'homestead',
+			'database'  => 'cadastro',
 			'username'  => 'root',
 			'password'  => '',
 			'charset'   => 'utf8',

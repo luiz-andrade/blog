@@ -23,5 +23,6 @@
 </nav>
 <div class="col-sm-2"></div>
 <div class="col-sm-10">
-{{link_to('/','Principal')}}
+{{--{{link_to('/','Postagens')}}--}}
+
 </div>

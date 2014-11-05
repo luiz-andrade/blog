@@ -17,7 +17,7 @@
       <div class="row">
         <div class="col-sm-3 col-md-2">
           <ul class="nav nav-sidebar navbar-inverse">
-            <li>{{link_to('principal', 'Principal')}}</li>
+            <li>{{link_to('principal', 'Postagens')}}</li>
             <li class="active"><a href="#">Novo post</a></li>
             <li><a href="#">Usuarios</a></li>
             <li>{{link_to('comentario', 'Comentarios')}}</li>
